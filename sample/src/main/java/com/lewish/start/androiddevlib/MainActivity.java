@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void testGetNetAcess() {
-        CommonOkHttpClient.get(CommonRequest.createGetRequest("http://10.0.130.54:8080/course_detail.json",null),new DisposeDataHandle(new DisposeDataListener() {
+        CommonOkHttpClient.get(CommonRequest.createGetRequest("http://10.0.130.54:8080/course_detail.json",null),
+                new DisposeDataHandle(new DisposeDataListener() {
             @Override
             public void onSuccess(Object responseObj) {
                 CourseDetail courseDetail = (CourseDetail) responseObj;

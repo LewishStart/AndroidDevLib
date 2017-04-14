@@ -133,4 +133,8 @@ public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> 
         mDatas.addAll(itemPreCount, datas);
         notifyItemRangeInserted(itemPreCount, datas.size());
     }
+
+    public void setDatas(List<T> mDatas) {
+        this.mDatas = mDatas;
+    }
 }
