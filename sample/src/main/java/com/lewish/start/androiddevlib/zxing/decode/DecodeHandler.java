@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.decode;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -28,9 +28,9 @@ import com.google.zxing.MultiFormatReader;
 import com.google.zxing.ReaderException;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
-import com.youdu.R;
-import com.youdu.zxing.app.CaptureActivity;
-import com.youdu.zxing.camera.CameraManager;
+import com.lewish.start.androiddevlib.R;
+import com.lewish.start.androiddevlib.zxing.app.CaptureActivity;
+import com.lewish.start.androiddevlib.zxing.camera.CameraManager;
 
 import java.util.Hashtable;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.encode;
+package com.lewish.start.androiddevlib.zxing.encode;
 
 import android.graphics.Bitmap;
 import android.os.Handler;
@@ -23,7 +23,7 @@ import android.util.Log;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
-import com.youdu.R;
+import com.lewish.start.androiddevlib.R;
 
 final class EncodeThread extends Thread
 {

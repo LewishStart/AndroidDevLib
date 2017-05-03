@@ -1,4 +1,4 @@
-package com.youdu.zxing.util;
+package com.lewish.start.androiddevlib.zxing.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

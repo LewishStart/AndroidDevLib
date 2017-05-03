@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.camera;
+package com.lewish.start.androiddevlib.zxing.camera;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -29,8 +29,8 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
-import com.youdu.zxing.app.PreferencesActivity;
-import com.youdu.zxing.decode.PlanarYUVLuminanceSource;
+import com.lewish.start.androiddevlib.zxing.app.PreferencesActivity;
+import com.lewish.start.androiddevlib.zxing.decode.PlanarYUVLuminanceSource;
 
 import java.io.IOException;
 import java.util.List;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.decode;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,7 +26,7 @@ import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.youdu.R;
+import com.lewish.start.androiddevlib.R;
 
 import java.io.IOException;
 

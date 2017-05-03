@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.decode;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -25,7 +25,7 @@ import android.content.DialogInterface;
  * @author Sean Owen
  */
 public final class FinishListener implements DialogInterface.OnClickListener, DialogInterface.OnCancelListener,
-		Runnable
+        Runnable
 {
 
 	private final Activity activityToFinish;

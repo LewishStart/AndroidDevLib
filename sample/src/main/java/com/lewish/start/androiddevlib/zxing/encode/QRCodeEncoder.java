@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.encode;
+package com.lewish.start.androiddevlib.zxing.encode;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -35,9 +35,9 @@ import com.google.zxing.client.result.AddressBookParsedResult;
 import com.google.zxing.client.result.ParsedResult;
 import com.google.zxing.client.result.ResultParser;
 import com.google.zxing.common.BitMatrix;
-import com.youdu.R;
-import com.youdu.zxing.decode.Contents;
-import com.youdu.zxing.decode.Intents;
+import com.lewish.start.androiddevlib.R;
+import com.lewish.start.androiddevlib.zxing.decode.Contents;
+import com.lewish.start.androiddevlib.zxing.decode.Intents;
 
 import java.io.IOException;
 import java.io.InputStream;

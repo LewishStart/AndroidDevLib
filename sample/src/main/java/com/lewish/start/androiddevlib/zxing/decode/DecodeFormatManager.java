@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.decode;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 import android.content.Intent;
 import android.net.Uri;

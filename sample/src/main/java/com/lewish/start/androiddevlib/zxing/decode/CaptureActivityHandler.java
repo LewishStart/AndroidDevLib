@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.decode;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,10 +27,10 @@ import android.util.Log;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
-import com.youdu.R;
-import com.youdu.zxing.app.CaptureActivity;
-import com.youdu.zxing.camera.CameraManager;
-import com.youdu.zxing.view.ViewfinderResultPointCallback;
+import com.lewish.start.androiddevlib.R;
+import com.lewish.start.androiddevlib.zxing.app.CaptureActivity;
+import com.lewish.start.androiddevlib.zxing.camera.CameraManager;
+import com.lewish.start.androiddevlib.zxing.view.ViewfinderResultPointCallback;
 
 import java.util.Vector;
 

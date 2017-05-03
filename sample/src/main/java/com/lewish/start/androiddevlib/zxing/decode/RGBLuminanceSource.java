@@ -1,4 +1,4 @@
-package com.youdu.zxing.decode;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 /*
  * Copyright 2009 ZXing authors

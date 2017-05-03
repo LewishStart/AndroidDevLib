@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.camera;
+package com.lewish.start.androiddevlib.zxing.camera;
 
 import android.graphics.Point;
 import android.hardware.Camera;
 import android.os.Build;
 import android.util.Log;
 
-import com.youdu.zxing.util.Util;
+import com.lewish.start.androiddevlib.zxing.util.Util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -107,7 +107,7 @@ final class CameraConfigurationManager {
 	}
 
 	private static Point getCameraResolution(Camera.Parameters parameters,
-			Point screenResolution) {
+                                             Point screenResolution) {
 
 		String previewSizeValueString = parameters.get("preview-size-values");
 		// saw this on Xperia
@@ -135,7 +135,7 @@ final class CameraConfigurationManager {
 	}
 
 	private static Point findBestPreviewSizeValue(
-			CharSequence previewSizeValueString, Point screenResolution) {
+            CharSequence previewSizeValueString, Point screenResolution) {
 		int bestX = 0;
 		int bestY = 0;
 		int diff = Integer.MAX_VALUE;

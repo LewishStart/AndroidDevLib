@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.app;
+package com.lewish.start.androiddevlib.zxing.app;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -54,17 +54,17 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 import com.google.zxing.qrcode.QRCodeWriter;
-import com.youdu.R;
-import com.youdu.zxing.camera.CameraManager;
-import com.youdu.zxing.decode.BeepManager;
-import com.youdu.zxing.decode.CaptureActivityHandler;
-import com.youdu.zxing.decode.DecodeFormatManager;
-import com.youdu.zxing.decode.FinishListener;
-import com.youdu.zxing.decode.InactivityTimer;
-import com.youdu.zxing.decode.Intents;
-import com.youdu.zxing.decode.RGBLuminanceSource;
-import com.youdu.zxing.util.Util;
-import com.youdu.zxing.view.ViewfinderView;
+import com.lewish.start.androiddevlib.R;
+import com.lewish.start.androiddevlib.zxing.camera.CameraManager;
+import com.lewish.start.androiddevlib.zxing.decode.BeepManager;
+import com.lewish.start.androiddevlib.zxing.decode.CaptureActivityHandler;
+import com.lewish.start.androiddevlib.zxing.decode.DecodeFormatManager;
+import com.lewish.start.androiddevlib.zxing.decode.FinishListener;
+import com.lewish.start.androiddevlib.zxing.decode.InactivityTimer;
+import com.lewish.start.androiddevlib.zxing.decode.Intents;
+import com.lewish.start.androiddevlib.zxing.decode.RGBLuminanceSource;
+import com.lewish.start.androiddevlib.zxing.util.Util;
+import com.lewish.start.androiddevlib.zxing.view.ViewfinderView;
 
 import java.io.IOException;
 import java.util.HashSet;

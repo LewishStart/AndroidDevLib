@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.view;
+package com.lewish.start.androiddevlib.zxing.view;
 
 import com.google.zxing.ResultPoint;
 import com.google.zxing.ResultPointCallback;

@@ -14,10 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.app;
-
-import java.util.ArrayList;
-import java.util.Collection;
+package com.lewish.start.androiddevlib.zxing.app;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
@@ -26,7 +23,10 @@ import android.preference.CheckBoxPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 
-import com.youdu.R;
+import com.lewish.start.androiddevlib.R;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 
 /**

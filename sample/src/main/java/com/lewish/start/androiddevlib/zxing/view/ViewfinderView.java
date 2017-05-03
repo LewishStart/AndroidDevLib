@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.view;
+package com.lewish.start.androiddevlib.zxing.view;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,8 +29,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import com.google.zxing.ResultPoint;
-import com.youdu.R;
-import com.youdu.zxing.camera.CameraManager;
+import com.lewish.start.androiddevlib.R;
+import com.lewish.start.androiddevlib.zxing.camera.CameraManager;
 
 import java.util.Collection;
 import java.util.HashSet;

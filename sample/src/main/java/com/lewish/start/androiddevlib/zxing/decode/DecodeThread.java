@@ -14,11 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.decode;
-
-import java.util.Hashtable;
-import java.util.Vector;
-import java.util.concurrent.CountDownLatch;
+package com.lewish.start.androiddevlib.zxing.decode;
 
 import android.content.SharedPreferences;
 import android.os.Handler;
@@ -28,8 +24,12 @@ import android.preference.PreferenceManager;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.ResultPointCallback;
-import com.youdu.zxing.app.CaptureActivity;
-import com.youdu.zxing.app.PreferencesActivity;
+import com.lewish.start.androiddevlib.zxing.app.CaptureActivity;
+import com.lewish.start.androiddevlib.zxing.app.PreferencesActivity;
+
+import java.util.Hashtable;
+import java.util.Vector;
+import java.util.concurrent.CountDownLatch;
 
 
 /**
@@ -48,7 +48,7 @@ final class DecodeThread extends Thread
 	private final CountDownLatch handlerInitLatch;
 
 	DecodeThread(CaptureActivity activity, Vector<BarcodeFormat> decodeFormats, String characterSet,
-				 ResultPointCallback resultPointCallback)
+                 ResultPointCallback resultPointCallback)
 	{
 
 		this.activity = activity;

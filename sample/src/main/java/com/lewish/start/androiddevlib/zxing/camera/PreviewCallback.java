@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.youdu.zxing.camera;
+package com.lewish.start.androiddevlib.zxing.camera;
 
 import android.graphics.Point;
 import android.hardware.Camera;
