@@ -122,7 +122,7 @@ public final class ViewfinderView extends View {
             paint.setAlpha(OPAQUE);
             canvas.drawBitmap(resultBitmap, null, frame, paint);
         } else {
-
+            //绘制四个边角
             paint.setColor(Color.BLUE);
             canvas.drawRect(frame.left, frame.top, frame.left + ScreenRate,
                     frame.top + CORNER_WIDTH, paint);
@@ -140,7 +140,7 @@ public final class ViewfinderView extends View {
                     - CORNER_WIDTH, frame.right, frame.bottom, paint);
             canvas.drawRect(frame.right - CORNER_WIDTH, frame.bottom
                     - ScreenRate, frame.right, frame.bottom, paint);
-
+            //绘制移动的线
             slideTop += SPEEN_DISTANCE;
             if (slideTop >= frame.bottom) {
                 slideTop = frame.top;
@@ -153,7 +153,7 @@ public final class ViewfinderView extends View {
             canvas.drawBitmap(((BitmapDrawable) (getResources()
                             .getDrawable(R.drawable.fle))).getBitmap(), null, lineRect,
                     paint);
-
+            //绘制文字
             paint.setColor(Color.WHITE);
             paint.setTextSize(TEXT_SIZE * density);
             paint.setAlpha(0x40);
