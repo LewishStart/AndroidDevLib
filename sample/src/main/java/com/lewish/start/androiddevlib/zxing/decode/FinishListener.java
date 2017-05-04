@@ -25,29 +25,24 @@ import android.content.DialogInterface;
  * @author Sean Owen
  */
 public final class FinishListener implements DialogInterface.OnClickListener, DialogInterface.OnCancelListener,
-        Runnable
-{
+        Runnable {
 
-	private final Activity activityToFinish;
+    private final Activity activityToFinish;
 
-	public FinishListener(Activity activityToFinish)
-	{
-		this.activityToFinish = activityToFinish;
-	}
+    public FinishListener(Activity activityToFinish) {
+        this.activityToFinish = activityToFinish;
+    }
 
-	public void onCancel(DialogInterface dialogInterface)
-	{
-		run();
-	}
+    public void onCancel(DialogInterface dialogInterface) {
+        run();
+    }
 
-	public void onClick(DialogInterface dialogInterface, int i)
-	{
-		run();
-	}
+    public void onClick(DialogInterface dialogInterface, int i) {
+        run();
+    }
 
-	public void run()
-	{
-		activityToFinish.finish();
-	}
+    public void run() {
+        activityToFinish.finish();
+    }
 
 }

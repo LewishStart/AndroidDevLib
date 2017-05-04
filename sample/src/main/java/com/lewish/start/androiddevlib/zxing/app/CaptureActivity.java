@@ -147,7 +147,9 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
         Util.currentActivity = this;
         CameraManager.init(getApplication());
         viewfinderView = (ViewfinderView) findViewById(R.id.viewfinder_view);
-
+        /**
+         * 找到我们自定义View控件并设置点击监听
+         */
         mButtonBack = (Button) findViewById(R.id.button_back);
         mButtonBack.setOnClickListener(click);
         createBtn = (Button) findViewById(R.id.qrcode_btn);
@@ -177,7 +179,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
     SurfaceHolder surfaceHolder;
 
     /**
-     * 闪光灯点击事件
+     * 完成按钮点击事件
      */
     private OnClickListener click = new OnClickListener() {
 
